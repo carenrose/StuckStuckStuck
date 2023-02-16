@@ -1,3 +1,48 @@
 body {
-    font-size: 15pt;
+}
+
+/********************************************************************************************************************/
+
+#background_svg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+/********************************************************************************************************************/
+
+#hero-intro {
+    width: 70%;
+    min-width: 400px; /* for the logo */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(28,28,28, 0.92);
+    border-radius: 10px;
+    color: #ccc;
+}
+
+#hero-logo {
+    margin-bottom: 1em;
+}
+
+#hero-logo svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo-pen {
+    /*fill: rgba(255,255,255, 0.35);*/
+    fill: url(#SvgjsLinearGradient7221);
+    opacity: 0.25;
+}
+#logo-line, #logo-text {
+    fill: url(#SvgjsLinearGradient7221);
+}
+#logo-text {
+    /* fill: #ccc; */
 }
